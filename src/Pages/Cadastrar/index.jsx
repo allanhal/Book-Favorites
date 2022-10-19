@@ -10,7 +10,7 @@ export default function Cadastrar() {
       <ContainerPage>
         <TitlePage> Cadastrar </TitlePage>
         <h1 className="organize">
-          <Link to="/">
+          <Link to="/Login">
             <ArrowBackIosIcon />
           </Link>
           Crie sua conta
@@ -39,7 +39,7 @@ export default function Cadastrar() {
 
           <div className="footerLogin">
             Ja tem uma conta?
-            <Link to="/">Fazer Login</Link>
+            <Link to="/login">Fazer Login</Link>
           </div>
         </form>
       </ContainerPage>

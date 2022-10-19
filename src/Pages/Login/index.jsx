@@ -41,7 +41,7 @@ export default function Login() {
 
         <div className="footerLogin">
           Não tem uma conta?
-          <Link to="/registrar">Registre-se</Link>
+          <Link to="/Cadastrar">Registre-se</Link>
         </div>
       </form>
     </AreaLogin>
