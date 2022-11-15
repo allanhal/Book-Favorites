@@ -20,20 +20,17 @@ export default function Cadastrar() {
           <div className="form--input">
             <label>Nome:</label>
             <input type="text"></input>
-          </div>
-          
+          </div>          
 
           <div className="form--input">
             <label>E-mail:</label>
             <input type="e-mail"></input>
-          </div>
-          
+          </div>          
 
           <div className="form--input">
             <label>Senha:</label>
             <input type="password"></input>
-          </div>
-          
+          </div>          
 
           <BtnDefaut>Comece Agora!</BtnDefaut>
 

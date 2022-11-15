@@ -28,15 +28,13 @@ export default function Login() {
         <div className="form--input">
           <label>Seu nome de usuário:</label>
           <input type="text"></input>
-        </div>
-        
+        </div>        
 
         <div className="form--input">
           <label>Sua senha:</label>
           <input type="password"></input>
         </div>
         
-
         <BtnDefaut>Entrar</BtnDefaut>
 
         <div className="footerLogin">
