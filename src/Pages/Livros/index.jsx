@@ -7,7 +7,7 @@ const Livros = () => {
 const [livros, setLivros] = useState([])
 
 useEffect(() => {
-  axios.get("/livros")
+  axios.get("http://localhost:5000")
     .then((response) => {
     console.log(response.data)
     setLivros(response.data)
