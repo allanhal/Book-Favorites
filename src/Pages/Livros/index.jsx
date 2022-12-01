@@ -6,8 +6,6 @@ import axios from "axios";
 const Livros = () => {
 const [livros, setLivros] = useState([]); 
 
-  // LET !!!!!! ou CONST !!!!!  linha 6
-
   useEffect(() => {
     axios.get("http://localhost:5000/books").then((response) => {
       console.log(response.data);
@@ -22,8 +20,7 @@ const [livros, setLivros] = useState([]);
         <div>
           <span>{livro._id}</span>{" "}
           <span>
-            {livro.title} <img src={`./img/${livro._id}.jpg`} alt="img" />
-            {livro.title} <img src={`./img/${livro._id}.jpg`} alt="img" />
+            {livro.title} <img src={`./img/${livro._id}.jpg`} alt="img" />         
           </span>
         </div>
       ))}
