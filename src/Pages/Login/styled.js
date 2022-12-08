@@ -7,7 +7,7 @@ export const AreaLogin = styled.div`
   margin: auto;
   margin-top: 20 px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 45px;
   box-shadow: 0px 0px 10px #ccc;
 
   h1 {

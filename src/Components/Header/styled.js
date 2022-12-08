@@ -4,6 +4,7 @@ export const AreaHeader = styled.div`
   height: 60 pix;
   background-image: linear-gradient(to right, #fff, #370d44);
   color: #fff;
+  margin-bottom: 40px;
 
   .container {
     padding: 5px 20px;

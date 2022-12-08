@@ -24,7 +24,7 @@ transition: 0.4s;
 `;
 
 export const BtnDefaut = styled(BtnDefaultIcons)`
-    background-color: #7d2ae8;
+    background-color: #7d2a;
     color: #fff;
     display: inline;  
 
