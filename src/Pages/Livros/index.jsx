@@ -13,7 +13,7 @@ const [livros, setLivros] = useState([]);
 const [cart, setCart] = useState( getItem('teste01') || []); 
 
   useEffect(() => {
-    axios.get("http://localhost:5000/books").then((response) => {
+    axios.get("https://63b4b4cc9f50390584b7ea2a.mockapi.io/books").then((response) => {
       console.log(response.data);
       setLivros(response.data);
     });

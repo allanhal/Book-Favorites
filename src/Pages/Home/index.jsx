@@ -5,7 +5,7 @@ import { ContainerPage, TitlePage } from '../../Components/Main';
 const Home = () => {
     return (
       <ContainerPage>
-        <TitlePage> Seja Benvindo!</TitlePage>
+        <TitlePage>Feliz ano novo!</TitlePage>
       </ContainerPage>
     );
 }
